@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --color-de-fondo:#e11364;
+    --color-fondo-cajas:#bc105c;
+    --color-fondo-boton:#2c8f20;
+    --color-fondo-tit-juego:#a00a3d;
+    --color-fondo-article:#fafafb;
+    --color-footer: #de6c9b;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    
+}
+.Titulo {
+    background-color: var(--color-fondo-cajas) ;
+    text-align: center;
+    padding: 10px;
+    margin: auto 25px auto 25px;
+    border-left: 3px solid var(--color-fondo-article);
+    border-right: 3px solid var(--color-fondo-article);
+}
+
+/* falta la tipografia */
+h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: var(--color-fondo-article) ;
+}
+
+main {
+    background-color: var(--color-fondo-cajas) ;
+    display: block;
+    margin: 25px 25px 25px 25px;
+    border-radius: 1%;
+}
+
+
+section {
+
+    width: 100%;
+    border-radius: 1%;
+    padding-bottom: 30px;
+    
+
+}
+.Titulo2 {
+    color:var(--color-fondo-article);
+    text-align: start;
+    padding: 15px;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+article {
+    background-color: var(--color-fondo-article) ;
+    border-radius: 1%;
+    margin: 20px;
+    
+    
+}
+
+
+
+h3 {
+    text-align: end;
+    border-bottom: 1px dotted var(--color-fondo-cajas) ;
+    color: var(--color-fondo-cajas) ;
+    padding-top: 20px;
+    
+}
+img {
+    width: 100%;
+}
+figcaption {
+    text-align: start;
+}
+
+.Boton {
+    display: block;
+    text-align: center;
+    
+}
+
+button {
+    background-color:var(--color-fondo-boton) ;
+    color:var(--color-fondo-article) ;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid #2c8f20;
+    border-radius: 5%;
+}
+a {
+    color:var(--color-fondo-article) ;
+    text-decoration: none;
+}
+.articulo2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--color-footer);
+    border:3px;   
+    border-radius: 1%;
+    height: 100px;
+    line-height: 100px;
+    margin: 25px 25px 25px 25px;
+    text-align: center;
+    color:var(--color-fondo-article);
+    font-size: 20px;
+    font-weight: 300;
+    
+    
+}
+

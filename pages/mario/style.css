@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-de-fondo:#e11364;
+    --color-fondo-cajas:#bc105c;
+    --color-fondo-boton:#2c8f20;
+    --color-fondo-tit-juego:#a00a3d;
+    --color-fondo-article:#fafafb;
+    --color-footer: #de6c9b;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5%;
+    
+}
+
+.Titulo-mario {
+    display: block;
+    background-color:var(--color-fondo-cajas) ;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: auto 25px 20px 25px;
+    border-radius: 5%;
+}
+
+main {
+    padding: 10px;
+    margin: auto 25px auto 25px;
+}
+
+.articulo-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+figure {
+    font-weight: 900;
+    font-size: large;
+
+}
+figcaption p {
+    text-align: justify;
+}
+
+.articulo-2 {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.img-figura {
+    width: 90%;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+   
+}
+
