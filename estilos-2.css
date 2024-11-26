@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-fondo-body: #000000;
+}
+
+body {
+  background-color: var(--color-fondo-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  background-color: blanchedalmond;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  border: 10px double green;
+  margin: 10px;
+}
+h1 {
+  color: #008000;
+  font-size: 50px;
+  text-shadow: 10px 10px 10px black;
+  font-family: "Roboto", serif;
+  transition: transform 0.5s ease, border-radius 0.5s ease;
+}
+
+h1:hover {
+    transform: scale(1.5) ;
+}
+
+.Titulo2 h2 {
+  text-align: center;
+  font-size: 40px;
+  color: blanchedalmond;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px white;
+  padding: 50px;
+  margin-left: 60px;
+  margin-top: 100px;
+  transition: font-size 0.3s ease;
+  border-bottom: 4px solid green;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+article {
+  width: 45%;
+  background: white;
+  border-radius: 10px;
+  border: 7px double #008000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+
+article figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article h3 {
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+  font-family: "Roboto", serif;
+}
+
+article img {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+article img:hover {
+  transform: scale(1.9) translateY(5%);
+  border-radius: 10px;
+}
+
+article figcaption p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin: 15px 0;
+  transition: font-size 0.3s ease, color 0.3s ease;
+  font-family: "Roboto", serif;
+}
+
+article figcaption p:hover {
+  font-size: 1.7em;
+  color: #161616;
+}
+
+.Boton {
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Boton button {
+  background-color: #ff4500;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Boton button:hover {
+  background-color: #ff0000;
+  border: 2px solid #333;
+  font-size: 1.6em;
+}
+
+.Boton button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 768px) {
+  .Titulo2 h2 {
+    font-size: 32px;
+  }
+
+  section {
+    justify-content: center;
+  }
+
+  article {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  article h3 {
+    font-size: 1.6em;
+  }
+
+  article img {
+    max-width: 100%;
+  }
+
+  .Boton button {
+    font-size: 1.1em;
+    padding: 12px 25px;
+  }
+}
+
+footer {
+  background-color: blanchedalmond;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  border: 10px double green;
+  margin-top: auto;
+  font-size: 30px;
+}
