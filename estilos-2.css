@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background-color: blanchedalmond;
+  background-color: lightblue;
   text-align: center;
   height: 200px;
   line-height: 200px;
@@ -62,7 +62,7 @@ section {
 
 article {
   width: 45%;
-  background: white;
+  background: lightblue;
   border-radius: 10px;
   border: 7px double #008000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -98,12 +98,14 @@ article img {
   max-width: 300px;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.8);
   transition: transform 0.3s ease, border-radius 0.3s ease;
 }
 
 article img:hover {
-  transform: scale(1.9) translateY(5%);
+  transform: scale(1.3) translateY(5%);
+  margin-top: 10px;
+  margin-bottom: 35px;
   border-radius: 10px;
 }
 
@@ -113,11 +115,13 @@ article figcaption p {
   margin: 15px 0;
   transition: font-size 0.3s ease, color 0.3s ease;
   font-family: "Roboto", serif;
+  
 }
 
 article figcaption p:hover {
   font-size: 1.7em;
   color: #161616;
+  text-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .Boton {
@@ -135,6 +139,7 @@ article figcaption p:hover {
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
 }
 
 .Boton button:hover {
@@ -178,7 +183,7 @@ article figcaption p:hover {
 }
 
 footer {
-  background-color: blanchedalmond;
+  background-color: lightblue;
   height: 100px;
   text-align: center;
   display: flex;
