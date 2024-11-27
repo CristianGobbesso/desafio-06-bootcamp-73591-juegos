@@ -2,6 +2,6 @@
 
 ```sh   
 Nombre: Cristian Gobbesso
-Link Github Repo: 
-Link Netlify:
+Link Github Repo:  https://github.com/CristianGobbesso/desafio-06-bootcamp-73591-juegos.git
+Link Netlify:  https://desafio-06-bootcamp-73591-juegos.netlify.app/
 ```
